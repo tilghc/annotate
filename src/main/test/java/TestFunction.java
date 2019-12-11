@@ -19,6 +19,7 @@ public class TestFunction {
 
 
         System.out.println("java修改");
+        System.out.println("java二次修改");
         System.out.println("git修改");
         System.out.println("git二次修改");
         userService.register(new User(null,"zhangda","123",89.5));
