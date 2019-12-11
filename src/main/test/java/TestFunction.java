@@ -18,6 +18,7 @@ public class TestFunction {
     public void Testfunction(){
 
         System.out.println("12332");
+        System.out.println("git修改");
         userService.register(new User(null,"zhangda","123",89.5));
     }
 }
