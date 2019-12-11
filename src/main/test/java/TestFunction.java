@@ -16,6 +16,8 @@ public class TestFunction {
     private UserDao userDao;
     @Test
     public void Testfunction(){
+
+        System.out.println("12332");
         userService.register(new User(null,"zhangda","123",89.5));
     }
 }
